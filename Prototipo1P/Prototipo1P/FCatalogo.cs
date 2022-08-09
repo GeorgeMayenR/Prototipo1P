@@ -23,5 +23,10 @@ namespace Prototipo1P
             m.Show();
             this.Hide();
         }
+
+        private void tabla2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

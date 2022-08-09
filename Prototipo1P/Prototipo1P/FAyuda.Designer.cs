@@ -30,6 +30,7 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.btnMenu = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
@@ -55,12 +56,24 @@
             this.btnMenu.UseVisualStyleBackColor = false;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(12, 190);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(756, 25);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Si te ha surgido algún problema puedes contactarme vía gmail: gmayenr@miumg.edu.g" +
+    "t";
+            // 
             // FAyuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.label3);
             this.Name = "FAyuda";
@@ -75,5 +88,6 @@
 
         private Label label3;
         private Button btnMenu;
+        private Label label1;
     }
 }
