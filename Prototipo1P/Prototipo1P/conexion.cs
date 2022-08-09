@@ -21,7 +21,7 @@ namespace Prototipo1P
                 b.Server = "localhost";
                 b.UserID = "root";//cambiar el usuario
                 b.Password = "41922924";//cambiar contraseña
-                b.Database = "prueba";
+                b.Database = "sic";
                 con = new MySqlConnection(b.ToString());
             }
             catch (MySqlException e)

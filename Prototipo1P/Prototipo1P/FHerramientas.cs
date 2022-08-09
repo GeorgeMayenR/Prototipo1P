@@ -23,5 +23,20 @@ namespace Prototipo1P
             m.Show();
             this.Hide();
         }
+
+        private void btnInsertar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
