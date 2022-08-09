@@ -42,19 +42,20 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtbuscar1 = new System.Windows.Forms.TextBox();
-            this.txt_id = new System.Windows.Forms.TextBox();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
+            this.codproducto = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.nomproducto = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.codlinea = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.codmarca = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.exproducto = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.estproductos = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tabla1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -191,19 +192,19 @@
             this.label1.TabIndex = 46;
             this.label1.Text = "BUSCAR";
             // 
-            // txtbuscar1
+            // txtbuscar
             // 
-            this.txtbuscar1.Location = new System.Drawing.Point(634, 371);
-            this.txtbuscar1.Name = "txtbuscar1";
-            this.txtbuscar1.Size = new System.Drawing.Size(74, 23);
-            this.txtbuscar1.TabIndex = 47;
+            this.txtbuscar.Location = new System.Drawing.Point(634, 371);
+            this.txtbuscar.Name = "txtbuscar";
+            this.txtbuscar.Size = new System.Drawing.Size(74, 23);
+            this.txtbuscar.TabIndex = 47;
             // 
-            // txt_id
+            // codproducto
             // 
-            this.txt_id.Location = new System.Drawing.Point(139, 125);
-            this.txt_id.Name = "txt_id";
-            this.txt_id.Size = new System.Drawing.Size(57, 23);
-            this.txt_id.TabIndex = 49;
+            this.codproducto.Location = new System.Drawing.Point(139, 125);
+            this.codproducto.Name = "codproducto";
+            this.codproducto.Size = new System.Drawing.Size(197, 23);
+            this.codproducto.TabIndex = 49;
             // 
             // label4
             // 
@@ -214,12 +215,12 @@
             this.label4.TabIndex = 48;
             this.label4.Text = "Codigo Producto";
             // 
-            // textBox1
+            // nomproducto
             // 
-            this.textBox1.Location = new System.Drawing.Point(141, 166);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(57, 23);
-            this.textBox1.TabIndex = 51;
+            this.nomproducto.Location = new System.Drawing.Point(141, 166);
+            this.nomproducto.Name = "nomproducto";
+            this.nomproducto.Size = new System.Drawing.Size(195, 23);
+            this.nomproducto.TabIndex = 51;
             // 
             // label5
             // 
@@ -230,69 +231,82 @@
             this.label5.TabIndex = 50;
             this.label5.Text = "Nombre Producto";
             // 
-            // textBox2
+            // codlinea
             // 
-            this.textBox2.Location = new System.Drawing.Point(141, 216);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(57, 23);
-            this.textBox2.TabIndex = 53;
+            this.codlinea.Location = new System.Drawing.Point(141, 216);
+            this.codlinea.Name = "codlinea";
+            this.codlinea.Size = new System.Drawing.Size(195, 23);
+            this.codlinea.TabIndex = 53;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(35, 224);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 15);
+            this.label6.Size = new System.Drawing.Size(74, 15);
             this.label6.TabIndex = 52;
-            this.label6.Text = "ID cita";
+            this.label6.Text = "Codigo linea";
             // 
-            // textBox3
+            // codmarca
             // 
-            this.textBox3.Location = new System.Drawing.Point(141, 270);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(57, 23);
-            this.textBox3.TabIndex = 55;
+            this.codmarca.Location = new System.Drawing.Point(141, 270);
+            this.codmarca.Name = "codmarca";
+            this.codmarca.Size = new System.Drawing.Size(195, 23);
+            this.codmarca.TabIndex = 55;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(35, 278);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 15);
+            this.label7.Size = new System.Drawing.Size(82, 15);
             this.label7.TabIndex = 54;
-            this.label7.Text = "ID cita";
+            this.label7.Text = "Codigo Marca";
             // 
-            // textBox4
+            // exproducto
             // 
-            this.textBox4.Location = new System.Drawing.Point(450, 120);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(57, 23);
-            this.textBox4.TabIndex = 57;
+            this.exproducto.Location = new System.Drawing.Point(540, 115);
+            this.exproducto.Name = "exproducto";
+            this.exproducto.Size = new System.Drawing.Size(205, 23);
+            this.exproducto.TabIndex = 57;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(404, 123);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(40, 15);
+            this.label8.Size = new System.Drawing.Size(111, 15);
             this.label8.TabIndex = 56;
-            this.label8.Text = "ID cita";
+            this.label8.Text = "Existencia Producto";
             // 
-            // textBox5
+            // estproductos
             // 
-            this.textBox5.Location = new System.Drawing.Point(450, 166);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(57, 23);
-            this.textBox5.TabIndex = 59;
+            this.estproductos.Location = new System.Drawing.Point(540, 161);
+            this.estproductos.Name = "estproductos";
+            this.estproductos.Size = new System.Drawing.Size(205, 23);
+            this.estproductos.TabIndex = 59;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(404, 169);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 15);
+            this.label9.Size = new System.Drawing.Size(96, 15);
             this.label9.TabIndex = 58;
-            this.label9.Text = "ID cita";
+            this.label9.Text = "Estatus Producto";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(101)))), ((int)(((byte)(244)))));
+            this.btnBuscar.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBuscar.ForeColor = System.Drawing.Color.White;
+            this.btnBuscar.Location = new System.Drawing.Point(916, 350);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(125, 44);
+            this.btnBuscar.TabIndex = 60;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // FHerramientas
             // 
@@ -300,19 +314,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1088, 603);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.estproductos);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.exproducto);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.codmarca);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.codlinea);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.nomproducto);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txt_id);
+            this.Controls.Add(this.codproducto);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtbuscar1);
+            this.Controls.Add(this.txtbuscar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
@@ -346,18 +361,19 @@
         private Button btnEliminar;
         private Button btnActualizar;
         private Label label1;
-        private TextBox txtbuscar1;
-        private TextBox txt_id;
+        private TextBox txtbuscar;
+        private TextBox codproducto;
         private Label label4;
-        private TextBox textBox1;
+        private TextBox nomproducto;
         private Label label5;
-        private TextBox textBox2;
+        private TextBox codlinea;
         private Label label6;
-        private TextBox textBox3;
+        private TextBox codmarca;
         private Label label7;
-        private TextBox textBox4;
+        private TextBox exproducto;
         private Label label8;
-        private TextBox textBox5;
+        private TextBox estproductos;
         private Label label9;
+        private Button btnBuscar;
     }
 }
