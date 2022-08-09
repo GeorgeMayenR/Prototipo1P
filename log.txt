@@ -1,0 +1,59 @@
+commit e6e28690153171954d23d416c94902a648c340cd
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 14:20:37 2022 -0600
+
+    Commit 10.1 agregando el archivo de los logs
+
+commit b0e3c413ecd056a2bf69054aeffa25a96ac318eb
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 14:10:57 2022 -0600
+
+    Commit 9, finalizado el proyecto
+
+commit 9fdd06a633117573c514a14e95b7cbbd534b2e59
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 13:50:34 2022 -0600
+
+    commit 8, agregamos la tabla compras_detalle a nuestro proyecto
+
+commit de3a5c9b78c8974d0aa9c88141b0b7be839c0ea0
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 13:43:29 2022 -0600
+
+    Commit 7, ya vamos casi terminando
+
+commit 42fc50a0842e08b4669258b9faada593ebc9d046
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 13:23:47 2022 -0600
+
+    commit 6 completando el formulario de catalogo
+
+commit 68bedaf10d43e0a2e50faf0c39a6f5d9c9a8007c
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 13:04:50 2022 -0600
+
+    Commit 5 agreganndo las tablas del formulario de catalogos
+
+commit 7c22582c088e097d4c63782bb038c093c5adef91
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 12:46:48 2022 -0600
+
+    Commit3 agregando los demás formularios
+
+commit 96a12e8b3eea1d50b39a0640bcedb07218ea1fad
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 12:15:05 2022 -0600
+
+    commit 2 agregando la base de datos y los diagramas al main
+
+commit 67d4cb0af3248e1715d4613e1ce5d0ac7620522d
+Author: GeorgeMayenR <georgemayen11520@gmail.com>
+Date:   Tue Aug 9 12:11:09 2022 -0600
+
+    Commit1 agregando diagramas y base de datos
+
+commit 8a2a385b6240814ddb9efbca5cff6f11d68fa88c
+Author: George Mayén <109621959+GeorgeMayenR@users.noreply.github.com>
+Date:   Tue Aug 9 11:21:46 2022 -0600
+
+    Initial commit
